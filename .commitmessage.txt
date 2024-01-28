@@ -1,6 +1,0 @@
-Commit description:
-Username:
-Date (DD/MM/YYYY):
-Changes description:
-Related Colaborators:
-Related Issues (#X):
