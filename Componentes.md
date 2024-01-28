@@ -10,7 +10,8 @@
 - LCD Display 16x2 with I2C interface module (Inter-Integrated Circuit).
 
 ## Extras:
-- Dupont wire F-F: 7
-- Dupont wire M-F: 8 
-- Dupont wire M-M: 0
+- Dupont wires:
+  - F-F: 7
+  - M-F: 8 
+  - M-M: 0
 - Resistors: 1 of 10 kOhm and 1 of 20 kOhm.
