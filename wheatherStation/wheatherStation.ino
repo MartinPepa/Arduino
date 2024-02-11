@@ -10,7 +10,7 @@
 #include <DHT.h>                  // Library for Temp and Humidity sensor
 #include <DHT_U.h>                // Library extra for Temp and Humidity sensor
 #include <Adafruit_BMP280.h>      // Library for Patm sensor
-#include <TM1637Display.h>        // Library for TM1637 7 segment display
+// #include <TM1637Display.h>        // Library for TM1637 7 segment display
 
 /* ATENTION: 
 - DHT11 sensor:
@@ -19,7 +19,7 @@
   Right pin: GND.
 - LCD Display:
   Analog pin A4 with SDA
-  Analog pin A5 con SCL
+  Analog pin A5 with SCL
 - BMP280 sensor:
   Pin SCL = SCK   --> 13
   Pin SDA = MOSI  --> 11
@@ -33,23 +33,23 @@
 #define BMP_MOSI  (11)
 #define BMP_CS_1  (10)
 int sensor = 2;
-// For display1 comunication (Temp)
-#define CLK1 TBD         // CLK a pin TBD
-#define DIO1 TBD         // DIO a pin TBD
-// For display2 comunication (Humidity)
-#define CLK2 TBD         // CLK a pin TBD
-#define DIO2 TBD         // DIO a pin TBD
-// For display3 comunication (Patm)
-#define CLK3 TBD         // CLK a pin TBD
-#define DIO4 TBD         // DIO a pin TBD
+// // For display1 comunication (Temp)
+#define CLK1 7         // CLK a pin TBD
+#define DIO1 8         // DIO a pin TBD
+// // For display2 comunication (Humidity)
+// #define CLK2 TBD         // CLK a pin TBD
+// #define DIO2 TBD         // DIO a pin TBD
+// // For display3 comunication (Patm)
+// #define CLK3 TBD         // CLK a pin TBD
+// #define DIO3 TBD         // DIO a pin TBD
 
 // Objects definition
 Adafruit_BMP280 pressure_sensor(BMP_CS_1);
 DHT TH_sensor(sensor,DHT11);
 LiquidCrystal_I2C lcd (0x27, 2, 1, 0, 4, 5, 6, 7);  // DIR, E, RW, RS, D4, D5, D6, D7
 TM1637Display display1(CLK1, DIO1);
-TM1637Display display2(CLK2, DIO2);
-TM1637Display display3(CLK3, DIO3);
+// TM1637Display display2(CLK2, DIO2);
+// TM1637Display display3(CLK3, DIO3);
 
 float temperature;
 int humidity;
@@ -91,8 +91,8 @@ byte arrow[8] = {
 void setup()
 {
     display1.setBrightness(5);		      // Sets the brightness level
-    display2.setBrightness(5);
-    display3.setBrightness(5);
+    // display2.setBrightness(5);
+    // display3.setBrightness(5);
     lcd.setBacklightPin(3,POSITIVE);  // P3 port from PCF8574 as positive
     lcd.setBacklight(HIGH);           // Enables LCD backlight
     lcd.begin(16, 2);                 // 16 columns pby 2 rows for LCD 1602A
@@ -135,11 +135,11 @@ void loop()
     lcd.print(pressure/100,1);
     lcd.print(" hPa");
     
-    display1.showNumberDecEx(static_cast<int>(temperature*10), 0b01000000, false, 3, 0);	
-    display2.showNumberDecEx(humidity, 0, false, 2, 0);	
-    display3.showNumberDecEx(static_cast<int>(pressure/100), 0b00100000, false, 3, 0);
+    display1.showNumberDecEx(static_cast<int>(temperature*10), 0b01000000, false, 3, 0);
+    // display2.showNumberDecEx(humidity, 0, false, 2, 0);
+    // display3.showNumberDecEx(static_cast<int>(pressure/100), 0b00100000, false, 3, 0);
     
-    delay(500);
+    delay(2000);
 }
 // ------------------------------
 
