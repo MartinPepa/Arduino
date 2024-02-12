@@ -22,3 +22,10 @@ Feel free to join as collaborator and share your ideas. Learning together will t
 - Resistors:
   - 1 of 10 kOhm.
   - 1 of 20 kOhm.
+
+### Pictures
+
+- Complete network:
+  ![Network](/images/01-complete-network.png)
+- LCD output:
+  ![LCD-output](/images/01-LCD-output.png)

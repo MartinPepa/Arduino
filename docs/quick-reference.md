@@ -3,7 +3,7 @@
 Library link: [TM1637 Library](https://github.com/avishorp/TM1637)
 
 - ``clear()``: Clear the display. Recommended to use it in Setup.
-- ``showNumberDecEx(num, dots, leading_zero, lenght, pos)``: Display a hexadecimal number, with dot control
+- ``showNumberDecEx(num, dots, leading_zero, lenght, pos)``: Display the given argument as a decimal number. The dots between the digits (or colon) can be individually controlled.
   - num (int): The number to be shown.
   - dots (uint_8t):  Dot/Colon enable. *Default 0*.
     - 0.000 (0b10000000)
@@ -41,6 +41,8 @@ Library link: [DHT Library](https://github.com/adafruit/DHT-sensor-library)
   - force (bool): force read mode. *Default false*.
 
 ### BMP280
+
+Library link: [BMP280 Library](https://github.com/adafruit/Adafruit_BMP280_Library)
 
 - ``readPressure()``: Reads barometric pressure from device. Returns barometric pressure in Pa.
 - ``readAltitude(seaLevel1hPa)``: Calculates the aproximate altitude in meters using barometric pressure and the supplied sea level hPa as a reference.
