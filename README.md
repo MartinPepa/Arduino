@@ -26,6 +26,9 @@ Feel free to join as collaborator and share your ideas. Learning together will t
 ### Pictures
 
 - Complete network:
+  
   ![Network](/images/01-complete-network.png)
+  
 - LCD output:
+  
   ![LCD-output](/images/01-LCD-output.png)
