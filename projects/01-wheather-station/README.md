@@ -18,10 +18,12 @@
   - 1 of 10 kOhm.
   - 1 of 20 kOhm.
 
-### Pictures
+## Pictures
 
 - **Complete network:**
+  
   ![Network](docs/01-complete-network.png)
   
 - **LCD output:**
+  
   ![LCD-output](docs/02-LCD-output.png)
