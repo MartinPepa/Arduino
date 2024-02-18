@@ -2,18 +2,14 @@
 
 ### Pictures
 
-- **Whole network**:
-  
+- **Whole network:**
   ![whole-network](docs/01-whole-network.png)
 
-- **Distance output**:
-  
+- **Distance output:**
   ![distance](docs/02-distance.png)
 
-- **Caution output**:
-  
+- **Caution output:**
   ![caution](docs/03-caution.png)
 
-- **Warning output**:
-  
+- **Warning output:**
   ![warning](docs/04-warning.png)
