@@ -1,5 +1,9 @@
 ## Quick Reference
 
+### LCD 16x2
+
+Library link: [LCD](https://github.com/fmalpartida/New-LiquidCrystal)
+
 ### QMC5883L
 
 Library link: [QMC5883L](https://github.com/keepworking/Mecha_QMC5883L/tree/master)
@@ -16,7 +20,3 @@ Library link: [QMC5883L](https://github.com/keepworking/Mecha_QMC5883L/tree/mast
 - `azimuth(int* a,int* b)`: Read value of *x* and *y* and returns the azimuth angle as float. Is used within read() functions.
   - a: *x* component of the magnetic field.
   - b: *y* component of the magnetic field.
-  
-### LCD 16x2
-
-Library link: [LCD](https://github.com/fmalpartida/New-LiquidCrystal)

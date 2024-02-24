@@ -1,7 +1,8 @@
-## Project description
+## Repository description
 
-This project is intended to show my progress in learning Arduino as a hobby.
-Feel free to join as collaborator and share your ideas. Learning together will take us further.
+This repository is intended to share my projects while I'm learning Arduino as a hobby.
+Feel free to join as collaborator and share your ideas.
+Learning together will take us further.
 
 ## Aknowledgments
 
