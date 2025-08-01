@@ -14,6 +14,10 @@ This template file is configured as follows:
 3. When the message is filled, press _Cntl+O_ to save it.
 4. Press _Cntl+X_ to close the editor.
 
+## Ignore directory
+
+In order to save usefull files (eg. .txt or .png) but keep them untracked, the `.gitignore` file has a directory called `ignore`.
+
 ## Aknowledgments
 
 - **Bitwise Ar:**
