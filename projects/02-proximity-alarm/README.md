@@ -6,26 +6,20 @@
 
 #### Modules/Sensors:
 - LCD Display 16x2 with I2C interface module (Inter-Integrated Circuit).
-- TBD
+- Active Buzzer YK-012.
+- HC-SR04 Ultrasonic sensor
 
 #### Extras:
 
-- Dupont wires: TBD
-
+- Dupont wires:
+  - M-M: 0.
+  - M-F: 7.
+  - F-F: 5.
+---
 ## Pictures
 
-- **Whole network:**
-  
-  ![whole-network](docs/01-whole-network.png)
-
-- **Distance output:**
-  
-  ![distance](docs/02-distance.png)
-
-- **Caution output:**
-  
-  ![caution](docs/03-caution.png)
-
-- **Warning output:**
-  
-  ![warning](docs/04-warning.png)
+1. **Whole network:**<details><summary>_Click to expand_</summary>![whole-network](docs/01-whole-network.png)</details>
+2. **Distance output:**<details><summary>_Click to expand_</summary>![distance](docs/02-distance.png)</details>
+3. **Caution output:**<details><summary>_Click to expand_</summary>![caution](docs/03-caution.png)</details>
+4. **Warning output:**<details><summary>_Click to expand_</summary>![warning](docs/04-warning.png)</details>
+---
