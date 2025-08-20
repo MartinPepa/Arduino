@@ -1,3 +1,5 @@
+# Getting started
+
 ## Repository description
 
 This repository is intended to share my projects while I'm learning Arduino as a hobby.
